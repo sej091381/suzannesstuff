@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Quick DOM Manipulation via JS</title>
+</head>
+	<body>
+		<div id="emptyDiv"></div>
+
+		<script type="text.javascript">
+			var targetDiv - document.getElementById("emptyDiv");
+			targetDiv.innerHTML = "eat more candies!!!";
+			var newDiv = document.createElement("div");
+			newDiv.innerHTML = "hello, did you brush your teeth?";
+			targetDiv.appendChild(newDiv);
+			newDiv.setAttribute("class", "fancy")
+	</body>
+</html>
